@@ -1,0 +1,46 @@
+﻿
+.header {
+    background-size: cover;
+    background-color: #add8e6;
+    
+}
+
+.header img{
+    float: left;
+    height: 10%;
+    width: 10%;
+}
+
+.*{
+    margin:0;
+    padding:0;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    color:black;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ffa500;
+    padding-top: 10px;
+    transition-duration: 0.2s;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section places {
+    flex-basis: 25%;
+}
