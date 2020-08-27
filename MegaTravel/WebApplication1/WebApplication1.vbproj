@@ -95,7 +95,6 @@
     <Content Include="About.html" />
     <Content Include="Contact.html" />
     <Content Include="Home.html" />
-    <Content Include="main.css" />
     <Content Include="main.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
