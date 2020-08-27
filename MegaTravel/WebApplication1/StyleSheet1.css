@@ -1,0 +1,229 @@
+﻿body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:768px){
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    padding-left: 100%;
+    padding-right: 100%;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffa500;
+}
+
+.location-card {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 86%;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 6%;
+}
+
+.intro {
+    margin: 30px 0;
+    padding-left: 10px;
+    width: 95%;
+}
+}
+
+@media only screen and (min-width:769px) and (max-width: 1250px){
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffa500;
+    padding-top: 10px;
+    transition-duration: 0.2s;
+}
+
+.location-card {
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 45%;
+    height: 500px;
+    border: 1px solid black;
+    padding: 1.2%;
+    margin: 1%;
+}
+
+.intro {
+    margin: 30px 0;
+    padding-left: 10px;
+    width: 75%;
+}
+}
+
+@media only screen and (min-width:1251px) {
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffa500;
+    padding-top: 10px;
+    transition-duration: 0.2s;
+}
+
+.location-card {
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 20%;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 1%;
+    height: 500px;
+}
+
+.intro {
+    margin: 30px 0;
+    padding-left: 10px;
+    width: 50%;
+}
+}
+
+.header {
+    background-color: #add8e6;
+    max-height: 300px;
+    min-height: 75px;
+    border-bottom: 15px solid;
+    border-bottom-color: #d3d3d3;
+}
+
+.header img {
+    width: 20%;
+    max-height: 300px;
+    max-width: 300px;
+    min-height: 75px;
+    min-width: 75px;
+}
+
+.intro h1 {
+    margin-bottom: 15px;
+}
+
+.intro p {
+    line-height: 1.5;
+}
+
+.location-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 60%;
+}
+
+.location-card h2 {
+    margin: 30px 0 15px;
+}
+
+.location-card a {
+    color: black;
+    text-decoration: none;
+}
+
+.location-card p {
+    line-height: 1.5;
+}
+
+.location-card:hover {
+    background: black;
+    transition-duration: 1.5s;
+    color: white;
+}
+
+.location-card:hover a {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.original-price {
+    color: grey;
+    text-transform: uppercase;
+}
+
+.current-price span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.saving {
+    color: green;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.copyright {
+    color: white;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.name {
+    color: white;
+    text-transform: uppercase;
+}
+
+.email {
+    color: white;
+}
+
