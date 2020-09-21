@@ -4,34 +4,32 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=divice-width" , inital-scale=1, shrink-to-fit="no" />
     <title>Mega Travel</title>
-    <link href="StyleSheet1.css" rel="stylesheet"  type="text/css" />
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
+
     <!--Header-->
     <div class="header">
         <img src="megaTravelLogo.png" alt="logo" />
+        <div id="Greeting"></div>
+        <div id="SunMoon"></div>
 
     </div>
+
 
     <!--navbar-->
     <div class="navbar">
         <nav>
             <ul>
-                <li>
-                    <a data-value="home" href="Home.html">Home</a>
-                </li>
-                <li>
-                    <a data-value="aboutUs" href="About.html">About Us</a>
-                </li>
-                <li>
-                    <a data-value="contactAgent" href="Contact.html">Contact Agent</a>
-                </li>
+                <li><a data-value="home" href="Home.html">Home</a></li>
+                <li><a data-value="aboutUs" href="About.html">About Us</a></li>
+                <li><a data-value="contactAgent" href="Contact.html">Contact Agent</a></li>
             </ul>
         </nav>
     </div>
-   
+
 
     <!--Page info-->
 
@@ -83,6 +81,12 @@
         <p class="name">Mega Travel</p>
         <p class="email">mega@travels.com</p>
     </div>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="Greeting.js"></script>
+    <script src="SunMoon.js"></script>
+
 </body>
 </html>
 
