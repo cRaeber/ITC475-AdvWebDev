@@ -232,3 +232,20 @@ nav a:hover {
     color: white;
 }
 
+button.link {
+    background: none;
+    border: none;
+    line-height: 2em;
+    font-size: 1.5em;
+    text-decoration: underline;
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.activity div {
+    line-height: 1.7em;
+    font-size: 1.25em;
+    margin-left: 7.5%;
+    margin-right: auto;
+}
